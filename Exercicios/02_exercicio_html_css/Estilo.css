@@ -1,0 +1,27 @@
+body {
+    /*background-color: cornflowerblue;*/
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: left;
+    margin-left: 5px;
+}
+
+tr {
+    color:white;
+}
+
+#titulo {
+    color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
