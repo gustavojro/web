@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.div-flutuante{
+    height: 5%;
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    z-index: 10;
+}
+
+.texto-menu{
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.foto-capa{
+    height: 30%;
+    width: 100%;
+    background-image: url(santos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-geral{
+    height: 80%;
+    background-color: black;
+}
+
+img{
+    border: 5px solid black;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.texto{
+    color: white;
+    margin: 27px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.texto-centralizado{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.nome-underline{
+    text-decoration: underline;
+}
+
+.nome-perfil{
+    margin-left: 250px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.absoluta {
+    color: blue;
+    position: absolute;
+    right: 10px;
+    margin-top: 20px;
+}
+
