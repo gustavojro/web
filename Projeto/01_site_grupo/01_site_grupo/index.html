@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR" class="bg-dark">
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link type="text/css" rel="stylesheet" href="img/estilo.css">
+  <!-- Incluir css do bootstrap -->
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Incluir jquery e js do bootstrap -->
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top transparent-bg h-5">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/JGJ-LOGO.png" width="50" height="30" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link ml-1" href="index.html">HOME <span class="sr-only">(atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-1" href="battlecastle.html">BATTLE CASTLE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-1" href="equipe.html">EQUIPE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-1" href="jogos.html">NOSSOS JOGOS</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+				<a href="https://megaman2121.itch.io/playtest-externo-grupo-6-pucc" target="_blank" class="btn btn-outline-success my-2 my-sm-0">JOGUE AGORA</a>
+			</form>
+    </div>
+  </nav>
+
+  <main role="main" style="background-color: #181c25;">
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Tela-Site-04.jpg" class="img-fluid d-block">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid spacet2">
+      <!-- Exemplo de linha divisoria -->
+      <div class="meu-hr spaceHome">
+        <hr>
+        <p class="destaque-bg">O GRUPO</p>
+        <p class="space c-w f-1">Somos um grupo de alunos da PUC CAMPINAS e estamos
+          realizando este projeto para
+          o término de conclusão do curso.<br><br>
+          Escolhemos o curso de JOGOS DIGITAIS pois tínhamos curiosidade e vontade de saber, entender e aprender como é
+          o processo
+          de criação de jogos. Ao longo dos anos fomos nos enturmando com outros colegas e neste último ano resolvemos
+          nos juntar
+          para fazer um projeto que gostássemos de realizar.
+        </p>
+      </div>
+      <!-- Exemplo de linha divisoria -->
+      <div class="meu-hr spaceHome">
+        <hr>
+        <p class="destaque-bg">PROJETOS</p>
+      </div>
+      <!-- Exemplo de linha de colunas -->
+      <div class="row">
+        <a style="text-decoration: none;" href="jogos.html">
+          <div class="col-md-4 space spaceHome lessspace">
+            <img src="img/reveal_home.png">
+          </div>
+          <div class="col-md-4">
+            <h2 class="absoluta">REVEAL NIGHTMARE</h2>
+            <br>
+            <p><a class="btn btn-secondary" href="jogos.html" role="button">VER DETALHES</a></p>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <a style="text-decoration: none;" href="jogos.html">
+          <div class="col-md-4 space spaceHome lessspace">
+            <img src="img/alvo_home.png">
+          </div>
+          <div class="col-md-4">
+            <h2 class="absoluta">SHOOTING RANGE: THE MISSION</h2>
+            <br>
+            <p><a class="btn btn-secondary" href="jogos.html" role="button">VER DETALHES</a></p>
+          </div>
+        </a>
+      </div>
+      <hr>
+    </div>
+    </div> <!-- /container -->
+
+    <div class="bg-dark">
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="index.html" class="color-a">Voltar ao topo</a></p>
+        <p class="absoluta">© JGJ, 2020</p>
+      </footer>
+    </div>
+
+  </main>
+
+
+
+  <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+  <!-- Foi colocado no final para a página carregar mais rápido -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <script>
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 450);
+    });
+  </script>
+
+</body>
+
+</html>

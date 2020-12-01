@@ -1,0 +1,116 @@
+.space {
+    padding-bottom: 2rem;
+}
+
+.spacet {
+    margin-top: 6rem;
+}
+
+.spacet2 {
+    margin-top: 4rem;
+}
+
+.spacet3 {
+    margin-top: 1rem;
+}
+
+.spaceHome {
+    margin: 0px 100px 0px 100px;
+}
+
+.lessspace {
+    margin-right: 1rem;
+}
+
+.h-5 {
+    height: 5em;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.transparent-bg {
+    background:transparent !important;
+    transition:0.75s ease;
+}
+
+.transparent-bg.scrolled {
+    background:#343a40 !important;
+}
+
+.absoluta {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotronBG {
+    background-image: url("Tela-Site-04.jpg");
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0rem;
+}
+
+.destaque-bg {
+    box-sizing: border-box;
+    border-top: .2rem solid rgba(245,245,245,0.1);
+    border-left: .5rem solid rgba(245,245,245,0.1);
+    border-right: .5rem solid rgba(245,245,245,0.1);;;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background: white;
+    color: black;
+}
+
+.c-w, .f-1 {
+    color: white;
+    font-size: 1.7rem;
+}
+
+/*.meu-hr {
+    display: flex;
+    align-items: left;
+}*/
+
+.meu-hr hr {
+    /*flex:1;*/
+    margin-bottom: -.2rem;
+    background-color: lightgray;
+}
+
+.divTxt {
+    background-color: teal;
+    height: 100%;
+}
+
+.textoCentro {
+    text-align: center;
+    color: white;
+}
+
+.box {
+    float: left;
+    width: 50%;
+}
+
+.color-a {
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}
